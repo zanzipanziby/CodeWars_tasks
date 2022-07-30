@@ -13,11 +13,11 @@ function XO(str) {
             sumO += 1;
         };
     }
-    if (sumX == sumO) {
+    if (sumX === sumO) {
         return true;
     } else {
         return false;
     }
     
-}
-console.log(XO('xXxoo'));
+};
+console.log(XO('xXoOXo'));
