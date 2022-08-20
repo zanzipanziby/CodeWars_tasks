@@ -1,11 +1,11 @@
 function removeSmallest(numbers) {
     let newArr = Array.from(numbers);
     if(numbers !== []) {
-    let minIndex = newArr.indexOf(Math.min.apply(null, newArr));
-    newArr.splice(minIndex, 1);
-    return newArr;
-  } else {
-    return [];
+        let minIndex = newArr.indexOf(Math.min.apply(null, newArr));
+        newArr.splice(minIndex, 1);
+        return newArr;
+    }  else {
+        return [];
   }
 }
 
