@@ -5,6 +5,7 @@ function removeSmallest(numbers) {
         newArr.splice(minIndex, 1);
         return newArr;
     }  else {
+        
         return [];
   }
 }
