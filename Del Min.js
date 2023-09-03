@@ -1,4 +1,5 @@
 function removeSmallest(numbers) {
+    
     let newArr = Array.from(numbers);
     if(numbers !== []) {
         let minIndex = newArr.indexOf(Math.min.apply(null, newArr));
