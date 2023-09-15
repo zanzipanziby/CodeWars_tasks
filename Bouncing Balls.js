@@ -12,7 +12,6 @@ Float parameter "bounce" must be greater than 0 and less than 1
 Float parameter "window" must be less than h.
 If all three conditions above are fulfilled, return a positive integer, otherwise return -1.
 
-
 Note:
 The ball can only be seen if the height of the rebounding ball is strictly greater than the window parameter. */
 
