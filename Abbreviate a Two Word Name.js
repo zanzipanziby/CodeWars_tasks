@@ -6,6 +6,7 @@ It should look like this:
 
 Sam Harris => S.H
 patrick feeney => P.F */
+
 function abbrevName(name) {
     let nameArr = name.split(' ');
     let firstLetter = nameArr[0][0];
