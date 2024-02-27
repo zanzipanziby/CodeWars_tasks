@@ -3,7 +3,6 @@
 //containing distinct letters - each taken only once - coming from s1 or s2.
 
 
-
 function longest(s1, s2) {
     let sortString = (s1 + s2).split('').sort().join('');
     let alphabet = (Array.from(new Set(sortString))).join('');
